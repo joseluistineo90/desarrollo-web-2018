@@ -17,4 +17,10 @@ valores: Son las cosas que esperán recibir como variables las propiedades para 
 
 /* selector de id # */
 /* #portafolio */
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Fjalla One', sans-serif;
+}
