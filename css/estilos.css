@@ -1,0 +1,20 @@
+/* Reglas
+selectores : como identificamos un elemento html
+declaraciones: todo lo que hacemos con ese selector
+propiedades: cosas particulares que podemos hacer con esos elementos
+valores: Son las cosas que esperán recibir como variables las propiedades para actuar de forma correcta
+*/
+
+/* Selector de etiqueta: header - section - article- nav */
+
+/* Selector descendente: elemento hijo de algún otro elemento */
+
+/* body header div nav ol li a  */
+
+/* selector de clase . */
+
+/* .link */
+
+/* selector de id # */
+/* #portafolio */
+
