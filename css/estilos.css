@@ -24,3 +24,19 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Fjalla One', sans-serif;
 }
+
+/* 
+  line-height: para modificar el alto de linea
+  font-size: para modificar el tamaño de la fuente
+  font-weight: para modificar el tipo de fuente
+  font-style: para modificar el estilo de la fuente
+  letter-spacing: para modificar el espacio entre letras
+  text-transform: para transformar la fuente (mayusculas, minuculas, etc)
+  text-decoration: para moodificar la decoración de la fuente 
+*/
+
+h1 {
+  font-size: 40px;
+  line-height: 1.5;
+  letter-spacing: -.2px;
+}
