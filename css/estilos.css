@@ -88,10 +88,41 @@ h1 {
 .header {
   background-color: #1d252c;
   color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+}
+
+.menu {
+  height: inherit;
+}
+
+.header ol {
+  display: flex;
+  height: inherit;
+}
+
+.header ol li {
+  height: inherit;
 }
 
 .header a {
+  display: flex;
+  align-items: center;
+  height: inherit;
   color: white;
   text-decoration: none;
+  padding: 0 20px;
 }
 
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure {
+  margin: 0;
+}
