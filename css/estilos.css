@@ -40,7 +40,7 @@ h1 {
   font-size: 40px;
   line-height: 1.5;
   letter-spacing: -.2px;
-  margin: 
+  margin: 0;
 }
 
 /* 
@@ -62,6 +62,8 @@ h1 {
   background-repeat: no-repeat;
   background-position-x: right;
   color: white;
+  display: flex;
+  align-items: center;
 }
 
 .portfolio {
@@ -89,8 +91,9 @@ h1 {
   background-color: #1d252c;
   color: white;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  height: 90px;
+  height: 70px;
 }
 
 .menu {
@@ -125,4 +128,21 @@ ul {
 
 figure {
   margin: 0;
+}
+
+.footer {
+  color: white;
+  background-color: #1b2127;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer img {
+  width: 80px;
+  vertical-align: middle;
+}
+
+.footer a {
+  color: white;
 }
