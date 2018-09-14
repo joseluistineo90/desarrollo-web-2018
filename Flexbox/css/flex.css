@@ -1,0 +1,27 @@
+body {
+  margin 0;
+}
+
+.flexbox {
+  display: flex;
+
+  /* 
+    El padre implicitamenente tiene la propiedad de flex-wrap: nowrap
+    que automaticamente esta como "nowrap", y lo que hace es que los elementos 
+    hijos no caigan hacia abajo al no tener mas espacio disponible en el body.
+    Si yo le quito la propiedad de nowrap y se la cambió por "wrap" los elementos 
+    hijos van a caer automaticamente de acuerdo a su contenido. 
+  */
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+  /* 
+    se aplica solo a los hijos directos de flex 
+    con flex-shrink estoy haciendo que las cajas hijos respeten sus dimensiones 
+    y como consecuencia de eso el body se hace mas grande hacia los costados
+  */
+  flex-shrink: 0;
+}
