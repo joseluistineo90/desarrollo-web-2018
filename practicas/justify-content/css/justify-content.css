@@ -1,0 +1,108 @@
+body {
+  margin 0;
+}
+
+.portada {
+  background-image: url('justify-content.jpg');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  padding: 20px;
+  height: 450px;
+}
+
+.header {
+  
+}
+
+.flexbox {
+  display: flex;
+  justify-content: start;
+
+  /* 
+    El padre implicitamenente tiene la propiedad de flex-wrap: nowrap
+    que automaticamente esta como "nowrap", y lo que hace es que los elementos 
+    hijos no caigan hacia abajo al no tener mas espacio disponible en el body.
+    Si yo le quito la propiedad de nowrap y se la cambió por "wrap" los elementos 
+    hijos van a caer automaticamente de acuerdo a su contenido. 
+  */
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  border: 1px solid red;
+  background-color: aqua;
+  /* 
+    se aplica solo a los hijos directos de flex 
+    con flex-shrink estoy haciendo que las cajas hijos respeten sus dimensiones 
+    y como consecuencia de eso el body se hace mas grande hacia los costados
+  */
+  flex-shrink: 0;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+
+}
+
+.box-center {
+  width: 50px;
+  height: 50px;
+  border: 1px solid red;
+  background-color: seagreen;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.box-end {
+  width: 50px;
+  height: 50px;
+  border: 1px solid red;
+  background-color: royalblue;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.space-between {
+  width: 50px;
+  height: 50px;
+  border: 1px solid red;
+  background-color: yellow;
+}
+
+.flex-space-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box-space-around {
+  width: 50px;
+  height: 50px;
+  border: 1px solid red;
+  background-color: rgb(255, 0, 157);
+}
+
+.flex-space-evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box-space-evenly {
+  width: 50px;
+  height: 50px;
+  border: 1px solid red;
+  background-color: rgb(0, 255, 0);
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 20px;
+  border: 1px solid grey;
+}
