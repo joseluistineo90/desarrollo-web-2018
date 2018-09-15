@@ -9,74 +9,61 @@
   </head>
   <body>
     <header class="header">
+      <div class="container">
         <figure class="logo">
           <img src="images/logo.png" height="50" alt="Logo de http://leonidasesteban.com">
         </figure>
-      <nav class="menu">
-        <ol>
-          <li>
-            <a href="#portafolio">Portafolio</a>
-          </li>
-          <li>
-            <a href="#eventos">Experiencia</a>
-          </li>
-          <li>
-            <a href="#contacto">Trabajemos juntos</a>
-          </li>
-        </ol>
-      </nav>
+        <nav class="menu">
+          <ol>
+            <li>
+              <a href="#portafolio">Portafolio</a>
+            </li>
+            <li>
+              <a href="#eventos">Experiencia</a>
+            </li>
+            <li>
+              <a href="#contacto">Trabajemos juntos</a>
+            </li>
+          </ol>
+        </nav>
+      </div>
       </div>
     </header>
     <section class="hero">
-      <h1>
-        Hola! Soy <strong style="color:#026fff;">Leonidas Esteban</strong> <br/> Desarrollador <strong style="color:#026fff">Javacript</strong> con <br/>pasión por la <strong style="color:#026fff">enseñanza</strong>.
-      </h1>
-      <!-- <img src="images/hero.jpg" width="500px" height="300px" alt="imagen principal del sitio"> -->
+      <div class="container">
+        <h1>
+          Hola! Soy <strong style="color:#026fff;">Leonidas Esteban</strong> <br/> Desarrollador <strong style="color:#026fff">Javacript</strong> con <br/>pasión por la <strong style="color:#026fff">enseñanza</strong>.
+        </h1>
+        <img class="hero-image" src="images/hero.jpg" width="500px" height="300px" alt="imagen principal del sitio">
+      </div>
     </section>
     <section id="portafolio" class="portfolio">
-      <h2>Portafolio (Proyectos Destacados)</h2>
-      <article class="project">
-        <div class="project-datails">
-          <h3 class="project-title">Plazi Video</h3>
-          <h6 class="project-course">React Native / React</h6>
-          <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
-          <p class="project-url"><small><strong>Puedes verlo en:</strong>www.platzi.com/native</small></p>
-          <p class="project-description">Platzi Video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar 
-            el funcionamiento de React y React Native. Desde crear un vista-detalle, 
-            hasta patrones avanzados de navegación, este proyecto ha sido el ejemplo de futuros 
-            creadores de aplicaciones multiplataforma
-          </p>
-        </div>
-        <figure class="project-imageContainer">
-          <img class="project-image" src="images/platzi-video-react-native.png" width="500" alt="Proyecto del curso de react native">
-        </figure>
-      </article>
-    </section>
-    <h2 class="event-list-title">Más sobre mi experiencia</h2>
-    <section id="eventos" class="event-list">
-    <article class="event">
-      <figure class="event-imageContainer">
-        <img class="event-image" src="images/platzi-conf.jpg" width="500" height="" alt=""/>
-      </figure>
-      <div class="event-detail">
-        <h3 class="event-title">Platziconf México 2018</h3>
-        <p class="event-description">El evento más grande sobre gente que quiere aprender más de internet. 
-          En este evento te comparto cómo tener una vida de constante aprendizaje.</p>
-        <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Plática</a>
+      <div class="container">
+        <h2>Portafolio (Proyectos Destacados)</h2>
+        <article class="project">
+          <div class="project-datails">
+            <h3 class="project-title">Plazi Video</h3>
+            <h6 class="project-course">React Native / React</h6>
+            <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
+            <p class="project-url"><small><strong>Puedes verlo en:</strong>www.platzi.com/native</small></p>
+            <p class="project-description">Platzi Video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar 
+              el funcionamiento de React y React Native. Desde crear un vista-detalle, 
+              hasta patrones avanzados de navegación, este proyecto ha sido el ejemplo de futuros 
+              creadores de aplicaciones multiplataforma
+            </p>
+          </div>
+          <figure class="project-imageContainer">
+            <img class="project-image" src="images/platzi-video-react-native.png" width="500" alt="Proyecto del curso de react native">
+          </figure>
+        </article>
       </div>
-    </article>
-    <article class="event">
-        <figure class="event-imageContainer">
-          <img class="event-image" src="images/platzi-conf.jpg" width="500" height="" alt=""/>
-        </figure>
-        <div class="event-detail">
-          <h3 class="event-title">Platziconf México 2018</h3>
-          <p class="event-description">El evento más grande sobre gente que quiere aprender más de internet. 
-            En este evento te comparto cómo tener una vida de constante aprendizaje.</p>
-          <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Plática</a>
-        </div>
-      </article>
-      <article class="event">
+    </section>
+    <div class="container">
+      <h2 class="event-list-title">Más sobre mi experiencia</h2>
+    </div>
+    <section id="eventos" class="event-list">
+      <div class="container">
+        <article class="event">
           <figure class="event-imageContainer">
             <img class="event-image" src="images/platzi-conf.jpg" width="500" height="" alt=""/>
           </figure>
@@ -98,20 +85,45 @@
               <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Plática</a>
             </div>
           </article>
-    </section>
+          <article class="event">
+              <figure class="event-imageContainer">
+                <img class="event-image" src="images/platzi-conf.jpg" width="500" height="" alt=""/>
+              </figure>
+              <div class="event-detail">
+                <h3 class="event-title">Platziconf México 2018</h3>
+                <p class="event-description">El evento más grande sobre gente que quiere aprender más de internet. 
+                  En este evento te comparto cómo tener una vida de constante aprendizaje.</p>
+                <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Plática</a>
+              </div>
+            </article>
+            <article class="event">
+                <figure class="event-imageContainer">
+                  <img class="event-image" src="images/platzi-conf.jpg" width="500" height="" alt=""/>
+                </figure>
+                <div class="event-detail">
+                  <h3 class="event-title">Platziconf México 2018</h3>
+                  <p class="event-description">El evento más grande sobre gente que quiere aprender más de internet. 
+                    En este evento te comparto cómo tener una vida de constante aprendizaje.</p>
+                  <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Plática</a>
+                </div>
+              </article>
+        </section>
+      </div>
     <section id="contacto" class="contact">
-      <form action="/suscription" class="form-email">
-        <!-- <label for="email">Déjame tu email</label> -->
-        <h3>¿Creamos algo juntos?</h3>
-        <input type="text" placeholder="Déjame tu Email" id="email" />
-        <!-- <input type="submit" value="texto del bóton"> -->
-        <button>Enviar</button>
-      </form>
-      <div class="social">
-        <a href="https://twitter.com/leonidasesteban" class="social-link twitter"></a>
-        <a href="https://facebook.com/leonidas.esteban" class="social-link facebook"></a>
-        <a href="https://github.com/leonidasesteban" class="social-link github"></a>
-        <a href="https://instagram.com/leonidasesteban" class="social-link instagram"></a>
+      <div class="container">
+        <form action="/suscription" class="form-email">
+          <!-- <label for="email">Déjame tu email</label> -->
+          <h3>¿Creamos algo juntos?</h3>
+          <input type="text" placeholder="Déjame tu Email" id="email" />
+          <!-- <input type="submit" value="texto del bóton"> -->
+          <button>Enviar</button>
+        </form>
+        <div class="social">
+          <a href="https://twitter.com/leonidasesteban" class="social-link twitter"></a>
+          <a href="https://facebook.com/leonidas.esteban" class="social-link facebook"></a>
+          <a href="https://github.com/leonidasesteban" class="social-link github"></a>
+          <a href="https://instagram.com/leonidasesteban" class="social-link instagram"></a>
+        </div>
       </div>
     </section>
     <footer class="footer">
